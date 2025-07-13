@@ -35,6 +35,25 @@ const anomalies = [
       mentalResistance: "Низкая",
       physicalResistance: "Средняя",
     },
+    ego: {
+      weapon: {
+        name: "Перо наблюдения",
+        damage: "12-16",
+        attackSpeed: "Средняя",
+        range: "Короткая",
+        description: "Длинное черное перо, заточенное до остроты лезвия. При атаке выпускает тёмную энергию."
+      },
+      armor: {
+        name: "Плащ одноглазого",
+        defense: "RED: 0.8, WHITE: 1.2, BLACK: 0.6, PALE: 2.0",
+        description: "Темный плащ из перьев, дающий защиту от физических атак."
+      },
+      gift: {
+        name: "Третий глаз",
+        effect: "+2 Благоразумие",
+        description: "Небольшой глаз, появляющийся на лбу носителя. Улучшает способность видеть скрытые угрозы."
+      }
+    }
   },
   {
     id: 2,
@@ -51,6 +70,25 @@ const anomalies = [
       mentalResistance: "Высокая",
       physicalResistance: "Низкая",
     },
+    ego: {
+      weapon: {
+        name: "Золотая роза",
+        damage: "4-7",
+        attackSpeed: "Быстрая",
+        range: "Длинная",
+        description: "Элегантная золотая роза на длинном стебле. Способна очаровывать врагов."
+      },
+      armor: {
+        name: "Королевские одежды",
+        defense: "RED: 1.5, WHITE: 0.5, BLACK: 1.0, PALE: 0.8",
+        description: "Роскошные королевские одежды, защищающие от ментальных атак."
+      },
+      gift: {
+        name: "Корона принца",
+        effect: "+3 Благоразумие, +1 Справедливость",
+        description: "Миниатюрная золотая корона. Повышает лидерские качества и мудрость."
+      }
+    }
   },
   {
     id: 3,
@@ -67,6 +105,25 @@ const anomalies = [
       mentalResistance: "Средняя",
       physicalResistance: "Высокая",
     },
+    ego: {
+      weapon: {
+        name: "Механический молот",
+        damage: "20-26",
+        attackSpeed: "Медленная",
+        range: "Короткая",
+        description: "Тяжелый механический молот с паровым двигателем. Наносит сокрушительные удары."
+      },
+      armor: {
+        name: "Механическая броня",
+        defense: "RED: 0.3, WHITE: 1.5, BLACK: 0.8, PALE: 1.2",
+        description: "Сложная механическая броня с множеством шестерёнок и трубок."
+      },
+      gift: {
+        name: "Механическое сердце",
+        effect: "+4 Стойкость, +2 Благоразумие",
+        description: "Небольшое механическое устройство, заменяющее сердце. Повышает выносливость."
+      }
+    }
   },
   {
     id: 4,
@@ -83,6 +140,25 @@ const anomalies = [
       mentalResistance: "Средняя",
       physicalResistance: "Низкая",
     },
+    ego: {
+      weapon: {
+        name: "Трость скорби",
+        damage: "8-12",
+        attackSpeed: "Медленная",
+        range: "Средняя",
+        description: "Старая деревянная трость с серебряным набалдашником. Вызывает печаль у врагов."
+      },
+      armor: {
+        name: "Траурное платье",
+        defense: "RED: 1.2, WHITE: 0.6, BLACK: 1.0, PALE: 0.9",
+        description: "Старое черное платье, источающее ауру печали и меланхолии."
+      },
+      gift: {
+        name: "Старые воспоминания",
+        effect: "+2 Благоразумие, +1 Справедливость",
+        description: "Древние воспоминания, хранящие мудрость прошлых лет."
+      }
+    }
   },
   {
     id: 5,
@@ -99,6 +175,25 @@ const anomalies = [
       mentalResistance: "Низкая",
       physicalResistance: "Средняя",
     },
+    ego: {
+      weapon: {
+        name: "Танец смерти",
+        damage: "14-18",
+        attackSpeed: "Очень быстрая",
+        range: "Короткая",
+        description: "Элегантные красные туфли, позволяющие наносить быстрые атаки в танце."
+      },
+      armor: {
+        name: "Платье танцовщицы",
+        defense: "RED: 0.9, WHITE: 0.7, BLACK: 1.3, PALE: 1.1",
+        description: "Красивое красное платье, дающее свободу движений и защиту от проклятий."
+      },
+      gift: {
+        name: "Ритм танца",
+        effect: "+3 Справедливость, +2 Стойкость",
+        description: "Внутренний ритм, улучшающий координацию и скорость реакции."
+      }
+    }
   },
   {
     id: 6,
@@ -115,6 +210,25 @@ const anomalies = [
       mentalResistance: "Крайне высокая",
       physicalResistance: "Крайне высокая",
     },
+    ego: {
+      weapon: {
+        name: "Клинок отчаяния",
+        damage: "35-45",
+        attackSpeed: "Средняя",
+        range: "Длинная",
+        description: "Проклятый клинок из чистого отчаяния. Каждый удар высасывает надежду из противника."
+      },
+      armor: {
+        name: "Доспехи короля",
+        defense: "RED: 0.2, WHITE: 0.1, BLACK: 0.3, PALE: 0.5",
+        description: "Легендарные доспехи, выкованные из материализованного отчаяния."
+      },
+      gift: {
+        name: "Корона отчаяния",
+        effect: "+5 Благоразумие, +3 Справедливость, +2 Стойкость",
+        description: "Корона абсолютной власти. Дарует огромную силу, но за высокую цену."
+      }
+    }
   },
 ];
 
@@ -311,7 +425,7 @@ const Index = () => {
                       </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                       <div>
                         <h3 className="font-semibold mb-2 flex items-center gap-2">
                           <Icon name="Activity" size={16} />
@@ -355,6 +469,84 @@ const Index = () => {
                             >
                               {anomaly.riskClass}
                             </Badge>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* E.G.O. Section */}
+                    <div className="border-t border-border pt-6">
+                      <h3 className="font-bold mb-4 flex items-center gap-2 text-lg text-primary">
+                        <Icon name="Zap" size={20} />
+                        E.G.O. ЭКИПИРОВКА
+                      </h3>
+                      
+                      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                        {/* Weapon */}
+                        <div className="space-y-3">
+                          <div className="flex items-center gap-2 mb-2">
+                            <Icon name="Sword" size={16} className="text-red-400" />
+                            <h4 className="font-semibold text-red-400">ОРУЖИЕ</h4>
+                          </div>
+                          <div className="bg-muted/50 rounded-lg p-3 space-y-2">
+                            <h5 className="font-medium text-sm">{anomaly.ego.weapon.name}</h5>
+                            <div className="text-xs space-y-1">
+                              <div className="flex justify-between">
+                                <span>Урон:</span>
+                                <span className="text-primary">{anomaly.ego.weapon.damage}</span>
+                              </div>
+                              <div className="flex justify-between">
+                                <span>Скорость:</span>
+                                <span>{anomaly.ego.weapon.attackSpeed}</span>
+                              </div>
+                              <div className="flex justify-between">
+                                <span>Дальность:</span>
+                                <span>{anomaly.ego.weapon.range}</span>
+                              </div>
+                            </div>
+                            <p className="text-xs text-muted-foreground mt-2">
+                              {anomaly.ego.weapon.description}
+                            </p>
+                          </div>
+                        </div>
+
+                        {/* Armor */}
+                        <div className="space-y-3">
+                          <div className="flex items-center gap-2 mb-2">
+                            <Icon name="Shield" size={16} className="text-blue-400" />
+                            <h4 className="font-semibold text-blue-400">БРОНЯ</h4>
+                          </div>
+                          <div className="bg-muted/50 rounded-lg p-3 space-y-2">
+                            <h5 className="font-medium text-sm">{anomaly.ego.armor.name}</h5>
+                            <div className="text-xs">
+                              <span className="text-muted-foreground">Защита:</span>
+                              <div className="mt-1 text-xs font-mono">
+                                {anomaly.ego.armor.defense}
+                              </div>
+                            </div>
+                            <p className="text-xs text-muted-foreground mt-2">
+                              {anomaly.ego.armor.description}
+                            </p>
+                          </div>
+                        </div>
+
+                        {/* Gift */}
+                        <div className="space-y-3">
+                          <div className="flex items-center gap-2 mb-2">
+                            <Icon name="Gift" size={16} className="text-purple-400" />
+                            <h4 className="font-semibold text-purple-400">ДАР</h4>
+                          </div>
+                          <div className="bg-muted/50 rounded-lg p-3 space-y-2">
+                            <h5 className="font-medium text-sm">{anomaly.ego.gift.name}</h5>
+                            <div className="text-xs">
+                              <span className="text-muted-foreground">Эффект:</span>
+                              <div className="mt-1 text-accent font-medium">
+                                {anomaly.ego.gift.effect}
+                              </div>
+                            </div>
+                            <p className="text-xs text-muted-foreground mt-2">
+                              {anomaly.ego.gift.description}
+                            </p>
                           </div>
                         </div>
                       </div>
